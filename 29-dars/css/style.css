@@ -1,0 +1,49 @@
+.ora {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header" "menu menu menu menu" "main main . s" "fff fff fff fff";
+}
+.bosh {
+    background-color: chartreuse;
+    grid-area: header;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+.oila {
+    background-color: orangered;
+    grid-area: menu;
+    padding: 20px;
+    color: blue;
+    column-gap: 20px;
+    word-spacing: 30px;
+    text-align: center;
+}
+.main {
+    background-color: green;
+    grid-area: main;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+.yon {
+    background-color: gold;
+    grid-area: s;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+.side {
+}
+.pastki {
+    background-color: red;
+    grid-area: fff;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+}
